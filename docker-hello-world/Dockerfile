@@ -1,4 +1,5 @@
-FROM docker/whalesay:latest
-RUN apt-get -y update && apt-get install -y fortunes
-CMD /usr/games/fortune -a | cowsay
+FROM ubuntu:15.10
+RUN apt-get -y update && apt-get install -y vim curl
+ENTRYPOINT ["echo"]
+CMD ["foo"]
 

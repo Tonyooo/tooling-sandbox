@@ -1,0 +1,12 @@
+sudo docker images
+sudo docker run docker-whale
+sudo docker ps
+sudo docker run -it ubuntu:15.10
+sudo docker run -d -P tomcat:8
+sudo docker stop 352d53f69d0d
+sudo docker commit c6543b8218be tony/ubuntu:1.0
+sudo docker run -it tony/ubuntu:3.0
+sudo docker run -it tony/ubuntu:3.0 bar
+
+sudo docker run -d --name tomcat tomcat:8
+sudo docker run -it --name client --link tomcat:tomcat tony/ubuntu:2.0 bash
