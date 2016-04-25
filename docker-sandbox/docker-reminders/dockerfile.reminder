@@ -1,0 +1,5 @@
+FROM = image de base sur le docker hub (ou local cache)
+RUN = lancer une commande pendant la contruction de l'image
+CMD = lancer une commande dans le conteneur lors du chargement
+
+

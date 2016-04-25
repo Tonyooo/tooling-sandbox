@@ -1,0 +1,4 @@
+FROM = image de base sur le docker hub (ou local cache)
+RUN = lancer une commande dans le conteneur
+
+
